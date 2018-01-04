@@ -20,3 +20,15 @@ console.log( {
 } )
 
 
+describe("InstanceOf: ", function() {
+	it("instanceOf1", function() {
+		expect(
+			testPlainObject1 instanceof Basic
+		).toBe( false );
+	});
+	it("instanceOf2", function() {
+		expect(
+			testPlainObject2 instanceof Basic
+		).toBe( true );
+	});
+});
