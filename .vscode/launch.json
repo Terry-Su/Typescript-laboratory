@@ -1,0 +1,20 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "Jasmine Individual Test",
+			"cwd": "${workspaceRoot}",
+			"program": "${workspaceRoot}/src/__spec__/tsRunnerForVscodeDebugger.ts",
+			"outFiles": [
+				"${workspaceRoot}/build/**/*.js"
+			],
+			"sourceMaps": true,
+			"console": "externalTerminal"
+		},
+	]
+}
